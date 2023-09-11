@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hng stage 1</title>
+	   
+   
+</head>
+<body>
+	<p data-testid="slackUsername">slack name: juliet ikegwuonu</p>
+	<p><img src="images.jpg" alt="juliet" data-testid="slackDisplayImage"></p>
+	<p data-testid="currenDayOfTheWeek" >Day of the week: <span id="currentDayOfTheWeek"></span></p>
+	<p data-testid="currentUTCTime=">date: <span id="currentDate"></span></p>
+	<p data-testid=myTrack>track: Frontend</p>
+	<p data-testid="githubURL">github url: <a href="www.google.com">www.google.com</a></p>
+
+	<script type="text/javascript">
+		const weekday= ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+		const d= new Date();
+		let day = weekday[d.getDay()];
+		document.getElementById('currentDayOfTheWeek').innerHTML=day;
+		document.getElementById('currentDate').innerHTML=d.getUTCMilliseconds();
+	</script>
+</body>
+</html>
+ 
