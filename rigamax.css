@@ -1,0 +1,89 @@
+.max{
+	color: black;
+}
+.ri{
+	color: #efc60de2;
+}
+.navbar-brand{
+	font-size: 33px;
+	font-weight: 700;
+
+}
+.nav-link{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.hb{
+	background-color: #d79805f0;
+}
+.ved{
+	color: #d79805f0;
+}
+.bb{
+	padding: 6% 0%;
+	line-height: 25px;
+}
+
+.uy{
+	border-radius: 5px;
+}
+.nom{
+	font-size: 24px;
+}
+.bt{
+	font-size: 27px;
+}
+.ct{
+	font-size: 37px;
+	font-weight: 700;
+}
+.de{
+	color: #d79805f0;
+	float: right;
+	font-size: 37px;
+}
+.vt{
+	font-size: 57px;
+	font-weight: 800;
+}
+.el{
+	overflow: hidden;
+	width: 100%;
+	clip-path: circle(50% at 61% 30%);
+	
+}
+.kk{
+	background-color: #95690475;
+	clip-path: circle(58.7% at 61% 25%);
+}
+.cu{
+	background-color: #eae30de8;
+
+	clip-path: circle(27.8% at 0% 100%);
+
+
+}
+.b{
+
+}
+.vv{
+	line-height: 15px;
+}
+.yt{
+	text-transform: uppercase;
+
+}
+.ft{
+	padding:  3% 0%;
+}
+@media screen and (max-width: 600px){
+	.el{
+	
+	clip-path: polygon(30% 6%, 73% 6%, 94% 30%, 95% 69%, 70% 93%, 33% 93%, 6% 70%, 6% 32%);
+	}
+	.kk{
+	background-color: #95690475;
+
+	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%,10% 20%);
+	}
+}
